@@ -1,0 +1,507 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+
+@media screen and (min-width: 1200px)
+{
+
+body { font-family: 'Open Sans', sans-serif; letter-spacing: 2px}
+ 
+.headerContent {width: auto;height:100px}
+
+header { width: 100%;height:100px}
+  
+nav{width: auto;float: right}
+  
+.logo{ width: 120px;float: left; margin: 45px 0px 0px 150px; animation-duration: 3s;animation-delay: 0.5s}
+
+.logo img {width: 100%}
+   
+    ul {margin: 50px 125px 0px 0px; width: 100%; height: 40px; animation-duration: 3s; animation-delay: 1s}
+   
+li{display: inline; margin: 20px; line-height: 40px; font-size: 15px}
+    
+a {list-style: none;text-decoration:none} 
+   
+li a{color:#b2b2b2}
+   
+li a:hover{color: #4a4a4a}
+   
+a:active{color: #4a4a4a}
+   
+li img{width: 25px; vertical-align: middle}
+   
+.selected{color: #4a4a4a}
+   
+.titleFurniture {width: 100%;height:400px}
+  
+.imgHeader{background-image: url("../images/header.jpg");background-size: cover;background-repeat: no-repeat;
+background-position: center;background-size: 100%;background-position:0px -120px;background-color: #ececec; 
+flex-wrap: wrap}
+
+.titleFurniture h1{ width: 100%;font-size: 74px;color: #4a4a4a;text-align: center;margin-top:200px; 
+animation-duration: 3s;animation-delay: 1.5s}
+  
+.contentBox{ width: 23.5%; height: 340px; float: left;box-sizing: border-box;padding: 10px 10px 10px 0px}
+
+.margin{width:16.5%;display: flex;float: left;height: 350px;box-sizing: border-box}
+  
+.aboutus{font-size: 25px;color: #4a4a4a;display: block;margin: 50px 0px 40px 218px}
+ 
+.subtitle{margin: 0px 0px 10px 0px;font-size: 20px;color:#b2b2b2}
+ 
+.parrafoLeft{font-size: 12px;color: #4a4a4a;line-height: 22px;font-weight: bold;margin-top: 20px}
+   
+.subtitle2{ margin: 0px 0px 10px 0px;font-size: 20px;color:#b2b2b2}
+  
+.contentBoxcenter{width: 20%;float: left;box-sizing: border-box;height: 340px;padding-left: 60px}
+
+.contentBoxcenter img {margin-top: 30px}
+  
+.contentBoxcenter p{color: #4a4a4a}
+  
+.contentBoxcenter img {width: 40px}
+
+#contentRight:hover{filter: brightness(75%)}
+  
+#contentRight{background-image: url("../images/image.jpg");background-size: cover}
+
+.categories{color: #4a4a4a;font-size: 25px;margin: 70px 0px 50px 150px;display: inline-block}
+
+.container-categories{height: 500px}
+ 
+.fotos{float: right;box-sizing: border-box;display: flex;text-align: center} 
+
+#bathroom{background-image: url("../images/bathroom.jpg");background-size: cover;background-position: -150px;background-repeat: no-repeat;
+width: 25%;box-sizing: border-box;float: left;height: 500px;box-sizing: border-box; display: table; z-index: 1}
+
+#bathroom:hover{filter: brightness(75%)}
+
+#kitchen:hover{filter: brightness(75%)}
+
+#bedroom:hover{filter: brightness(75%)}
+
+#livingroom:hover{filter: brightness(75%)}
+
+#kitchen{background-image: url("../images/kitchen.jpg");background-size: cover;background-repeat: no-repeat;width: 25%;float: left;height: 500px;
+box-sizing: border-box;display: table;height:250px}
+
+#bedroom{background-image: url("../images/bedroom.jpg");background-size: cover;background-repeat: no-repeat;width: 25%;float: left;height: 500px;
+box-sizing: border-box;display: table;height:250px}
+
+#livingroom{background-image: url("../images/livingroom.jpg");background-size: cover;background-position: -150px;background-repeat: no-repeat;width: 25%;
+float: left;height: 500px; box-sizing: border-box;display: table;height:250px}
+
+.fotos h2{color: #ffffff;font-size:34px;display: table-cell;vertical-align: middle;width: 100%;height: 500px} 
+  
+.futer{height: 75px; width: 100%;background-color: #f3f3f3;display: inline-block}
+  
+footer p{text-align:center;line-height: 75px;color:#b2b2b2;font-size: 14px}
+  
+footer{margin-bottom: 0px;height: 75px;width: 100%;display: inline-block} 
+
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px) 
+{
+  body { font-family: 'Open Sans', sans-serif; letter-spacing: 2px}
+ 
+  .headerContent {width: auto;height:100px}
+  
+  header { width: 100%;height:100px}
+    
+  nav{width: auto;float: right;  animation-duration: 3s;animation-delay: 1s}
+    
+  .logo{ width: 100px;float: left; margin: 35px 0px 0px 120px;animation-duration: 3s;animation-delay: 0.5s}
+  
+  .logo img {width: 100%}
+     
+  ul {margin: 50px 125px 0px 0px; width: 100%; height: 40px; animation-duration: 3s; animation-delay: 1s}
+     
+  li{display: inline;margin: 10px;line-height: 40px;font-size: 13px}
+      
+  a {list-style: none;text-decoration:none} 
+     
+  li a{color:#b2b2b2}
+     
+  li a:hover{color: #4a4a4a}
+     
+  a:active{color: #4a4a4a}
+     
+  li img{width: 20px; vertical-align: middle}
+     
+  .selected{color: #4a4a4a}
+     
+  .titleFurniture {width: 100%;height:365px}
+    
+  .imgHeader{background-image: url("../images/header.jpg");background-size: cover;background-repeat: no-repeat;
+  background-position: center; background-size: 100% auto;background-color: #ececec;width: 100%;height:100%; 
+  flex-wrap: wrap;}
+    
+  .titleFurniture h1{ width: 100%;font-size: 64px;color: #4a4a4a;text-align: center;margin-top:170px; 
+   animation-duration: 3s;animation-delay: 1.5s}
+  
+  .contentBox{ width: 24.5%; height: 300px; float: left;box-sizing: border-box;padding: 10px 10px 10px 0px}
+  
+  .margin{width:12.5%;display: flex;float: left;height: 300px;box-sizing: border-box}
+   
+  .contentBoxcenter{width: 26%;float: left;box-sizing: border-box;height: 300px;padding-left: 60px}
+  
+  .contentBoxcenter img {margin-top: 17px}
+    
+  .contentBoxcenter p{color: #4a4a4a}
+    
+  .contentBoxcenter img {width: 35px}
+
+  #contentRight:hover{filter: brightness(75%)}
+   
+  .aboutus{font-size: 20px;color: #4a4a4a;display: block;margin: 40px 0px 15px 150px}
+
+  .subtitle{margin: 0px 0px 10px 0px;font-size: 18px;color:#b2b2b2}
+   
+  .parrafoLeft{font-size: 10px;color: #4a4a4a;line-height: 18px;font-weight: bold;margin-top: 20px}
+     
+  .subtitle2{ margin: 0px 0px 10px 0px;font-size: 20px;color:#b2b2b2}
+    
+  #contentRight{background-image: url("../images/image.jpg");background-size: cover}
+  
+  .categories{color: #4a4a4a;font-size: 20px;margin: 40px 0px 50px 150px;display: inline-block}
+  
+  .container-categories{height: 500px}
+   
+  .fotos{float: right;box-sizing: border-box;display: flex;text-align: center} 
+  
+  #bathroom{background:transparent url("../images/bathroom.jpg");background-size: cover;background-position: -150px;background-repeat: no-repeat;
+  width: 25%;box-sizing: border-box;float: left;height: 500px;box-sizing: border-box; display: table; z-index: 1}
+  
+  #kitchen{background-image: url("../images/kitchen.jpg");background-size: cover;background-repeat: no-repeat;width: 25%;float: left;height: 500px;
+  box-sizing: border-box;display: table;height:250px}
+    
+  #bedroom{background-image: url("../images/bedroom.jpg");background-size: cover;background-repeat: no-repeat;width: 25%;float: left;height: 500px;
+  box-sizing: border-box;display: table;height:250px}
+    
+  #livingroom{background-image: url("../images/livingroom.jpg");background-size: cover;background-position: -150px;background-repeat: no-repeat;width: 25%;
+  float: left;height: 500px; box-sizing: border-box;display: table;height:250px}
+  
+  
+  #bathroom:hover{filter: brightness(75%)}
+  
+  #kitchen:hover{filter: brightness(75%)}
+  
+  #bedroom:hover{filter: brightness(75%)}
+  
+  #livingroom:hover{filter: brightness(75%)}
+
+  .fotos h2{color: #ffffff;font-size:28px;display: table-cell;vertical-align: middle;width: 100%;height: 500px} 
+    
+  .futer{height: 75px; width: 100%;background-color: #f3f3f3;display: inline-block}
+    
+  footer p{text-align:center;line-height: 75px;color:#b2b2b2;font-size: 13px}
+    
+  footer{margin-bottom: 0px;height: 75px;width: 100%;display: inline-block} 
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) 
+{
+  body { font-family: 'Open Sans', sans-serif; letter-spacing: 2px}
+ 
+  .headerContent {width: auto;height:100px}
+  
+  header { width: 100%;height:100px}
+    
+  nav{width: auto;float: right;  animation-duration: 3s; animation-delay: 1s}
+    
+  .logo{ width: 75px;float: left; margin: 25px 0px 0px 100px; animation-duration: 3s;animation-delay: 0.5s}
+  
+  .logo img {width: 100%}
+     
+  ul{margin: 25px 40px 0px 0px;width: 100%;height: 40px}
+     
+  li{display: inline;margin: 5px;line-height: 40px;font-size: 12px}
+      
+  a {list-style: none;text-decoration:none} 
+     
+  li a{color:#b2b2b2}
+     
+  li a:hover{color: #4a4a4a}
+     
+  a:active{color: #4a4a4a}
+     
+  li img{width: 15px; vertical-align: middle}
+     
+  .selected{color: #4a4a4a}
+     
+  .titleFurniture {width: 100%;height:300px}
+    
+  .imgHeader{background-image: url("../images/header.jpg");background-size: cover;background-repeat: no-repeat;
+  background-position: center;background-size: 100% auto;background-color: #ececec;width: 100%;height:100%;
+  flex-wrap: wrap;}
+    
+  .titleFurniture h1{ width: 100%;font-size: 44px;color: #4a4a4a;text-align: center;margin-top:120px; 
+   animation-duration: 3s;animation-delay: 1.5s}
+    
+  .contentBox{ width: 24.5%; height: 275px; float: left;box-sizing: border-box;padding: 10px 10px 10px 0px}
+  
+  .margin{width:12.5%;display: flex;float: left;height: 300px;box-sizing: border-box}
+   
+  .contentBoxcenter{width: 26%;float: left;box-sizing: border-box;height: 275px;padding-left: 40px}
+  
+  .contentBoxcenter img {margin-top: 17px}
+    
+  .contentBoxcenter p{color: #4a4a4a; font-size: 12px;}
+    
+  .contentBoxcenter img {width: 35px}
+ 
+  #contentRight:hover{ filter: brightness(75%)}
+   
+  .aboutus{font-size: 16px;color: #4a4a4a;display: block;margin: 40px 0px 15px 100px}
+
+  .subtitle{margin: 0px 0px 10px 0px;font-size: 16px;color:#b2b2b2}
+   
+  .parrafoLeft{font-size: 8px;color: #4a4a4a;line-height: 16px;font-weight: bold;margin-top: 20px}
+     
+  .subtitle2{ margin: 0px 0px 10px 0px;font-size: 16px;color:#b2b2b2}
+    
+  #contentRight{background-image: url("../images/image.jpg");background-size: cover}
+  
+  .categories{color: #4a4a4a;font-size: 16px;margin: 20px 0px 50px 100px;display: inline-block}
+  
+  .container-categories{height: 400px}
+   
+  .fotos{float: right;box-sizing: border-box;display: flex;text-align: center} 
+  
+  #bathroom{background:transparent url("../images/bathroom.jpg");background-size: cover;background-position: -100px;background-repeat: no-repeat;
+  width: 25%;box-sizing: border-box;float: left;height: 400px;box-sizing: border-box; display: table; z-index: 1}
+  
+  #kitchen{background-image: url("../images/kitchen.jpg");background-size: cover;background-repeat: no-repeat;width: 25%;float: left;height: 400px;
+  box-sizing: border-box;display: table}
+    
+  #bedroom{background-image: url("../images/bedroom.jpg");background-size: cover;background-repeat: no-repeat;width: 25%;float: left;height: 400px;
+  box-sizing: border-box;display: table;}
+  
+  #livingroom{background-image: url("../images/livingroom.jpg");background-size: cover;background-position: -150px;background-repeat: no-repeat;width: 25%;
+  float: left;height: 500px; box-sizing: border-box;display: table;height:400px}
+  
+  #bathroom:hover{filter: brightness(75%)}
+  
+  #kitchen:hover{filter: brightness(75%)}
+  
+  #bedroom:hover{filter: brightness(75%)}
+  
+  #livingroom:hover{filter: brightness(75%)}
+
+  .fotos h2{color: #ffffff;font-size:20px;display: table-cell;vertical-align: middle;width: 100%;height:300px} 
+    
+  .futer{height: 75px; width: 100%;background-color: #f3f3f3;display: inline-block}
+    
+  footer p{text-align:center;line-height: 75px;color:#b2b2b2;font-size: 12px}
+    
+  footer{margin-bottom: 0px;height: 75px;width: 100%;display: inline-block} 
+}
+
+@media screen and (min-width:576px) and (max-width:767px) 
+{
+  body { font-family: 'Open Sans', sans-serif; letter-spacing: 2px}
+ 
+  .headerContent {width: auto;height:100px}
+  
+  header { width: 100%;height:100px}
+    
+  nav{width: auto;float: right;  animation-duration: 3s;animation-delay: 1s}
+    
+  .logo{ width: 75px;float: left; margin: 25px 0px 0px 100px; animation-duration: 3s;animation-delay: 0.5s}
+  
+  .logo img {width: 100%}
+     
+  ul{margin: 25px 40px 0px 0px;width: 100%;height: 40px}
+     
+  li{display: inline;margin: 5px;line-height: 40px;font-size: 12px}
+      
+  a {list-style: none;text-decoration:none} 
+     
+  li a{color:#b2b2b2}
+     
+  li a:hover{color: #4a4a4a}
+     
+  a:active{color: #4a4a4a}
+     
+  li img{width: 15px; vertical-align: middle}
+     
+  .selected{color: #4a4a4a}
+     
+  .titleFurniture {width: 100%;height:275px}
+    
+  .imgHeader{background-image: url("../images/header.jpg");background-size: cover;background-repeat: no-repeat;
+   background-position: center; background-size: 100% auto;background-color: #ececec;width: 100%;height:100%;
+   flex-wrap: wrap;}
+    
+  .titleFurniture h1{ width: 100%;font-size: 30px;color: #4a4a4a;text-align: center;margin-top:50px; 
+   animation-duration: 3s;animation-delay: 1.5s;}
+  
+  .contentBox{ width: 27.5%; height: 225px; float: left;box-sizing: border-box;padding: 10px 10px 10px 0px}
+  
+  .margin{width:10%;display: flex;float: left;height: 225px;box-sizing: border-box}
+   
+  .contentBoxcenter{width: 25%;float: left;box-sizing: border-box;height: 225px;padding-left: 10px}
+  
+  .contentBoxcenter img {margin-top: 17px}
+    
+  .contentBoxcenter p{color: #4a4a4a; font-size: 10px;}
+    
+  .contentBoxcenter img {width: 25px}
+
+  #contentRight:hover{filter: brightness(75%)}
+
+  .aboutus{font-size: 16px;color: #4a4a4a;display: block;margin: 40px 0px 15px 100px}
+
+  .subtitle{margin: 0px 0px 10px 0px;font-size: 13px;color:#b2b2b2}
+   
+  .parrafoLeft{font-size: 6px;color: #4a4a4a;line-height: 14px;font-weight: bold;margin-top: 20px}
+     
+  .subtitle2{ margin: 0px 0px 10px 0px;font-size: 13px;color:#b2b2b2}
+    
+  #contentRight{background-image: url("../images/image.jpg");background-size: cover}
+  
+  .categories{color: #4a4a4a;font-size: 14px;margin: 30px 0px 40px 60px;display: inline-block}
+  
+  .container-categories{width:100%; height: 360px}
+   
+  .fotos{float: right;box-sizing: border-box;display: flex;text-align: center} 
+  
+  #bathroom{background:transparent url("../images/bathroom.jpg");background-size: cover;background-position: -100px;background-repeat: no-repeat;
+  width: 25%;box-sizing: border-box;float: left;height: 360px;box-sizing: border-box; display: table;}
+  
+  #kitchen{background-image: url("../images/kitchen.jpg");background-size: cover;background-repeat: no-repeat;width: 25%;float: left;height: 360px;
+  box-sizing: border-box;display: table}
+    
+  #bedroom{background-image: url("../images/bedroom.jpg");background-size: cover;background-repeat: no-repeat;width: 25%;float: left;height: 360px;
+  box-sizing: border-box;display: table;}
+  
+  #livingroom{background-image: url("../images/livingroom.jpg");background-size: cover; background-repeat: no-repeat;width: 25%;
+  float: left;height: 500px; box-sizing: border-box;display: table;height:360px}
+  
+  #bathroom:hover{filter: brightness(75%)}
+  
+  #kitchen:hover{filter: brightness(75%)}
+  
+  #bedroom:hover{filter: brightness(75%)}
+  
+  #livingroom:hover{filter: brightness(75%)}
+
+  .fotos h2{color: #ffffff;font-size:14px;display: table-cell;vertical-align: middle;width: 100%;height:300px} 
+    
+  .futer{height: 75px; width: 100%;background-color: #f3f3f3;display: inline-block}
+    
+  footer p{text-align:center;line-height: 75px;color:#b2b2b2;font-size: 12px}
+    
+  footer{margin-bottom: 0px;height: 75px;width: 100%;display: inline-block} 
+}	
+
+@media screen and (min-width:360px) and (max-width: 575px)
+{
+  
+  body { font-family: 'Open Sans', sans-serif; letter-spacing: 2px }
+ 
+  .headerContent {width: auto;height:100px}
+  
+  header { width: 100%;height:100px}
+    
+  nav{width: auto;float: right;  animation-duration: 3s;animation-delay: 1s}
+    
+  .logo{ width: 45px;float: left; margin: 25px 0px 0px 50px; animation-duration: 3s;animation-delay: 0.5s}
+  
+  .logo img {width: 100%}
+     
+  ul{margin: 20px 20px 0px 0px;width: 100%;height: 40px}
+     
+  li{display: inline;margin: 2px;line-height: 40px;font-size: 8px}
+      
+  a {list-style: none;text-decoration:none} 
+     
+  li a{color:#b2b2b2}
+     
+  li a:hover{color: #4a4a4a}
+     
+  a:active{color: #4a4a4a}
+     
+  li img{width: 10px; vertical-align: middle}
+     
+  .selected{color: #4a4a4a}
+     
+  .titleFurniture {width: 100%;height: 230px;}
+    
+  .imgHeader{background-image: url("../images/header.jpg");background-size: cover;background-repeat: no-repeat;
+  background-position: center; background-size: 100% auto;background-position: 0px 60px; background-color: #ececec;
+  width: 100%;height:100%;flex-wrap: wrap;}
+    
+  .titleFurniture h1{ width: 100%;font-size: 24px;color: #4a4a4a;text-align: center;margin-top:40px; animation-duration: 3s;
+  animation-delay: 1.5s;}
+  
+  .contentBox{ width: 100%; height: 160px; box-sizing: border-box;padding: 10px 40px 10px 50px}
+  
+  .margin{display: none;}
+   
+  .contentBoxcenter{width: 100%;height: 125px;padding: 0px 0px 0px 0px; margin: 0 auto;}
+
+  .contentBoxinline {width:32%; display: inline-block; text-align:center}
+    
+  .contentBoxcenter p{color: #4a4a4a; font-size: 12px;}
+    
+  .contentBoxcenter img {width: 35px; }
+
+  #contentRight:hover{filter: brightness(75%)}
+   
+  .aboutus{font-size: 14px;color: #4a4a4a;display: block;margin: 40px 0px 15px 50px}
+
+  .subtitle{margin: 0px 0px 10px 0px;font-size: 14px;color:#b2b2b2}
+   
+  .parrafoLeft{font-size: 8px;color: #4a4a4a;line-height: 16px;font-weight: bold;margin-top: 20px}
+     
+  .subtitle2{ width:100%; margin: 20px 0px 10px 50px;font-size: 14px;color:#b2b2b2}
+    
+  #contentRight{display:none}
+  
+  .categories{color: #4a4a4a;font-size: 14px;margin: 20px 0px 50px 50px;display: inline-block}
+  
+  .container-categories{height: 275px; width: 100%; }
+   
+  .fotos{float: right;box-sizing: border-box;display: flex;text-align: center;width: 100%;} 
+  
+  #bathroom{background:transparent url("../images/bathroom.jpg");background-size: cover;background-position: -100px;background-repeat: no-repeat;
+  width: 25%;box-sizing: border-box;float: left;height: 275px;box-sizing: border-box; display: table; z-index: 1}
+  
+  #kitchen{background-image: url("../images/kitchen.jpg");background-size: cover;background-repeat: no-repeat;width: 25%;float: left;height: 275px;
+  box-sizing: border-box;display: table}
+    
+  #bedroom{background-image: url("../images/bedroom.jpg");background-size: cover;background-repeat: no-repeat;width: 25%;float: left;height: 275px;
+  box-sizing: border-box;display: table;}
+  
+  #livingroom{background-image: url("../images/livingroom.jpg");background-size: cover;background-position: -150px;background-repeat: no-repeat;width: 25%;
+  float: left;height: 275px; box-sizing: border-box;display: table;}
+
+  #bathroom:hover{filter: brightness(75%)}
+  
+  #kitchen:hover{filter: brightness(75%)}
+  
+  #bedroom:hover{filter: brightness(75%)}
+  
+  #livingroom:hover{filter: brightness(75%)}
+
+  .fotos h2{color: #ffffff;font-size:8px;display: table-cell;vertical-align: middle;width: 100%;height:275px} 
+    
+  .futer{height: 30px; width: 100%;background-color: #f3f3f3;display: inline-block}
+    
+  footer p{text-align:center;line-height: 30px;color:#b2b2b2;font-size: 8px}
+    
+  footer{margin-bottom: 0px;height:30px;width: 100%;display: inline-block} 
+
+}
