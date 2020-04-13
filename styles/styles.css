@@ -20,13 +20,13 @@ body { font-family: 'Open Sans', sans-serif; letter-spacing: 2px}
 
 header { width: 100%;height:100px}
   
-nav{width: auto;float: right}
+nav{width: auto;float: right;  animation-duration: 3s;animation-delay: 1s}
   
 .logo{ width: 120px;float: left; margin: 45px 0px 0px 150px; animation-duration: 3s;animation-delay: 0.5s}
 
 .logo img {width: 100%}
    
-    ul {margin: 50px 125px 0px 0px; width: 100%; height: 40px; animation-duration: 3s; animation-delay: 1s}
+ul {margin: 50px 125px 0px 0px; width: 100%; height: 40px;}
    
 li{display: inline; margin: 20px; line-height: 40px; font-size: 15px}
     
@@ -125,7 +125,7 @@ footer{margin-bottom: 0px;height: 75px;width: 100%;display: inline-block}
   
   .logo img {width: 100%}
      
-  ul {margin: 50px 125px 0px 0px; width: 100%; height: 40px; animation-duration: 3s; animation-delay: 1s}
+  ul {margin: 50px 125px 0px 0px; width: 100%; height: 40px}
      
   li{display: inline;margin: 10px;line-height: 40px;font-size: 13px}
       
